@@ -1,0 +1,21 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+pipeline: 
+# supervised_embeddings
+- name: "SpacyNLP" 
+  model: "../fasttext/wiki-news-300d-1M-subword"
+- name: "SpacyTokenizer"
+- name: "RegexFeaturizer"
+- name: "SpacyFeaturizer"
+- name: "SpacyEntityExtractor"
+- name: "CRFEntityExtractor"
+- name: "EntitySynonymMapper"
+- name: "SklearnIntentClassifier"
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy

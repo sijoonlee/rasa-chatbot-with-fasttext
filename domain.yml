@@ -1,0 +1,26 @@
+intents:
+  - greet
+  - goodbye
+  - search_teacher_office
+  - search_teacher_office_hour
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_teacher_office
+- utter_teacher_office_hour
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "Hello!"
+
+  utter_goodbye:
+  - text: "Bye!"
+  - text: "Have a nice one!"
+
+  utter_teacher_office:
+  - text: "office"
+
+  utter_teacher_office_hour:
+  - text: "office hour"
