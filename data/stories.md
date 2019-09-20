@@ -7,111 +7,44 @@
   - utter_goodbye
 
 ## office
-* search_teacher_office{"name": "Donna"}
-  - utter_teacher_office
+* search_teacher_office
+  - utter_ask_teacher_name_or_course
+  * inform{"name":"example"}
+  - slot{"name":"example"}
   - action_search_office
   - slot{"name": ""}
   - slot{"course":""}
   - slot{"course_code":""}
-* search_teacher_office{"name": "Donna Graves"}
-  - utter_teacher_office
+* search_teacher_office
+  - utter_ask_teacher_name_or_course
+  * inform{"course":"example"}
+  - slot{"course":"example"}
   - action_search_office
   - slot{"name": ""}
   - slot{"course":""}
   - slot{"course_code":""}
-* search_teacher_office{"name": "James"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"name": "James Bond"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"name": "Janis"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"name": "Janis Michael"}
-  - utter_teacher_office
+* search_teacher_office
+  - utter_ask_teacher_name_or_course
+  * inform{"course_code":"example"}
+  - slot{"course_code":"example"}
   - action_search_office
   - slot{"name": ""}
   - slot{"course":""}
   - slot{"course_code":""}
 
-* search_teacher_office{"course": "php"}
+* search_teacher_office{"name": "example"}
   - utter_teacher_office
   - action_search_office
   - slot{"name": ""}
   - slot{"course":""}
   - slot{"course_code":""}
-* search_teacher_office{"course": "business"}
+* search_teacher_office{"course": "example"}
   - utter_teacher_office
   - action_search_office
   - slot{"name": ""}
   - slot{"course":""}
   - slot{"course_code":""}
-* search_teacher_office{"course": "database"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"course": "c++"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"course": "database management"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-
-* search_teacher_office{"course_code": "COMP20"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"course_code": "COMP206"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"course_code": "COMP333"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"course_code": "GENE60"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"course_code": "GENE"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"course_code": "ADMN1000"}
-  - utter_teacher_office
-  - action_search_office
-  - slot{"name": ""}
-  - slot{"course":""}
-  - slot{"course_code":""}
-* search_teacher_office{"course_code": "ADMN"}
+* search_teacher_office{"course_code": "example"}
   - utter_teacher_office
   - action_search_office
   - slot{"name": ""}
@@ -120,4 +53,44 @@
 
 ## office hours
 * search_teacher_office_hour
+  - utter_ask_teacher_name_or_course
+  * inform{"name":"example"}
+  - slot{"name":"example"}
+  - action_search_office_hour
+  - slot{"name": ""}
+  - slot{"course":""}
+  - slot{"course_code":""}
+* search_teacher_office_hour
+  - utter_ask_teacher_name_or_course
+  * inform{"name":"example"}
+  - slot{"name":"example"}
+  - action_search_office_hour
+  - slot{"name": ""}
+  - slot{"course":""}
+  - slot{"course_code":""}
+* search_teacher_office_hour
+  - utter_ask_teacher_name_or_course
+  * inform{"name":"example"}
+  - slot{"name":"example"}
+  - action_search_office_hour
+  - slot{"name": ""}
+  - slot{"course":""}
+  - slot{"course_code":""}
+* search_teacher_office_hour{"name":"example"}
   - utter_teacher_office_hour
+  - action_search_office_hour
+  - slot{"name": ""}
+  - slot{"course":""}
+  - slot{"course_code":""}
+* search_teacher_office_hour{"course": "example"}
+  - utter_teacher_office_hour
+  - action_search_office_hour
+  - slot{"name": ""}
+  - slot{"course":""}
+  - slot{"course_code":""}
+* search_teacher_office_hour{"course_code": "example"}
+  - utter_teacher_office_hour
+  - action_search_office_hour
+  - slot{"name": ""}
+  - slot{"course":""}
+  - slot{"course_code":""}

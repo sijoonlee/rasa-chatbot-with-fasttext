@@ -59,7 +59,7 @@ class ActionSearchOffice(Action):
             key = "course_code"
             query = course_code
         else:
-            dispatcher.utter_message("please specify")
+            dispatcher.utter_message("Please specify teacher's name or course")
             return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
 
         #response = json.loads(json_util.dumps(collection.find_one({key:query.lower()})))
@@ -92,15 +92,19 @@ class ActionSearchOfficeHour(Action):
             key = "course_code"
             query = course_code
         else:
-            dispatcher.utter_message("please specify")
+            dispatcher.utter_message("Please specify teacher's name or course")
             return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
 
         #response = json.loads(json_util.dumps(collection.find_one({key:query.lower()})))
         response = json.loads(json_util.dumps(collection.find_one({key:{'$regex':query.lower()}})))
         
         if response:
-            office = response['office_hour']
-            dispatcher.utter_message(" office = " + office)
+            office_hour = response['office_hour']
+            if len(office_hour) == 0:
+                dispatcher.utter_message("no office hour")
+            else:
+                for key, value in office_hour.items():
+                    dispatcher.utter_message(key + " : " + value)
         else:
             dispatcher.utter_message("Sorry, couldn't find in my database: " + query)
         return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]

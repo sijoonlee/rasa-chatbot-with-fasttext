@@ -19,6 +19,7 @@ intents:
 - goodbye
 - search_teacher_office
 - search_teacher_office_hour
+- inform
 
 actions:
 - utter_greet
