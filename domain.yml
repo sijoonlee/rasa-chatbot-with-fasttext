@@ -1,14 +1,33 @@
+slots:
+  name:
+    type: text
+    initial_value: ""
+  course:
+    type: text
+    initial_value: ""
+  course_code:
+    type: text
+    initial_value: ""
+
+entities:
+- name
+- course
+- course_code
+
 intents:
-  - greet
-  - goodbye
-  - search_teacher_office
-  - search_teacher_office_hour
+- greet
+- goodbye
+- search_teacher_office
+- search_teacher_office_hour
 
 actions:
 - utter_greet
 - utter_goodbye
 - utter_teacher_office
 - utter_teacher_office_hour
+- utter_ask_teacher_name_or_course
+- action_search_office
+- action_search_office_hour
 
 templates:
   utter_greet:
@@ -20,7 +39,10 @@ templates:
   - text: "Have a nice one!"
 
   utter_teacher_office:
-  - text: "office"
+  - text: "Debug Purpose Name {name} Course {course} Code {course_code}" 
 
   utter_teacher_office_hour:
   - text: "office hour"
+
+  utter_ask_teacher_name_or_course:
+  - text: "Could you specify teacher's name or teacher's course?"

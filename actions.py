@@ -25,3 +25,83 @@
 #         dispatcher.utter_message("Hello World!")
 #
 #         return []
+
+
+# from __future__ import absolute_import
+# from __future__ import division
+# from __future__ import unicode_literals
+
+from rasa_core_sdk import Action
+from rasa_core_sdk.events import SlotSet
+from pymongo import MongoClient
+from bson import json_util, ObjectId
+import json
+
+client = MongoClient('mongodb://127.0.0.1:27017')
+db = client.slc_db
+collection = db.teachers
+
+class ActionSearchOffice(Action):
+    def name(self):
+        return 'action_search_office'
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message("called")
+        name = tracker.get_slot("name")
+        course = tracker.get_slot("course")
+        course_code = tracker.get_slot("course_code")
+        if name != "":
+            key = "name"
+            query = name
+        elif course != "":
+            key = "course"
+            query = course
+        elif course_code != "":
+            key = "course_code"
+            query = course_code
+        else:
+            dispatcher.utter_message("please specify")
+            return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
+
+        #response = json.loads(json_util.dumps(collection.find_one({key:query.lower()})))
+        response = json.loads(json_util.dumps(collection.find_one({key:{'$regex':query.lower()}})))
+        
+        if response:
+            office = response['room']
+            dispatcher.utter_message(" office = " + office)
+        else:
+            dispatcher.utter_message("Sorry, couldn't find in my database: " + query)
+        return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
+
+
+
+class ActionSearchOfficeHour(Action):
+    def name(self):
+        return 'action_search_office_hour'
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message("called")
+        name = tracker.get_slot("name")
+        course = tracker.get_slot("course")
+        course_code = tracker.get_slot("course_code")
+        if name != "":
+            key = "name"
+            query = name
+        elif course != "":
+            key = "course"
+            query = course
+        elif course_code != "":
+            key = "course_code"
+            query = course_code
+        else:
+            dispatcher.utter_message("please specify")
+            return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
+
+        #response = json.loads(json_util.dumps(collection.find_one({key:query.lower()})))
+        response = json.loads(json_util.dumps(collection.find_one({key:{'$regex':query.lower()}})))
+        
+        if response:
+            office = response['office_hour']
+            dispatcher.utter_message(" office = " + office)
+        else:
+            dispatcher.utter_message("Sorry, couldn't find in my database: " + query)
+        return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
+        

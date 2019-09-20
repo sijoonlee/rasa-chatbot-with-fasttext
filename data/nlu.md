@@ -21,9 +21,9 @@
 
 ## intent:search_teacher_office
 - where is [Donna](name)'s room?
-- where is [Donna](name) room?
-- where is [Donna](name)'s office?
-- where is [Donna](name) office?
+- where is [Janis](name) room?
+- where is [James](name)'s office?
+- where is [Hanna](name) office?
 - where is [C++](course) teacher's room?
 - where is [web development](course) teacher room?
 - where is [database](course) teacher's office?
@@ -36,6 +36,17 @@
 - where is [GENE](course_code) professor's office?
 - where is [GENE60](course_code) prof's office?
 - where is [ADMN](course_code) prof office?
+- where is [web development](course) office?
+- where is [database](course) office?
+- where is [business](course) office?
+- where is [php](course) office?
+- where is [php programming](course) office?
+- where is [COMP20](course_code) room?
+- where is [COMP220](course_code) room?
+- where is [COMP206](course_code) office?
+- where is [GENE](course_code) office?
+- where is [GENE60](course_code) office?
+- where is [ADMN](course_code) office?
 - where is my teacher's room?
 - where is my professor's office?
 - find me [Donna](name)'s office
@@ -50,9 +61,9 @@
 
 ## intent:search_teacher_office_hour
 - I want to know [Donna](name)'s office hour
-- Could you let me know [Donna](name)'s office hour
-- when is [Donna](name)'s office hours?
-- when is [Donna](name) office hours?
+- Could you let me know [James](name)'s office hour
+- when is [Hanna](name)'s office hours?
+- when is [Janis](name) office hours?
 - when is [web development](course) teacher's office hour?
 - when is [database](course) teacher's office hours?
 - when is [business](course) professor's hours?
@@ -64,6 +75,7 @@
 - when is [GENE](course_code) professor's office hour?
 - when is [GENE60](course_code) prof's office hours?
 - when is [ADMN](course_code) prof office hour?
+- when is [ADMN1000](course_code) prof office hour?
 - When is [C++](course) teacher available hours?
 - When is [C++](course) professor available?
 - When is [Donna](name) available?
@@ -75,10 +87,44 @@
 - When can I meet [database](course) professor?
 
 ## lookup:name
-data/name.txt
+-Donna
+-Donna graves
+-Bryan
+-Bryan Elliott
+-Janis
+-Janis Michael
+-James
+-James Bond
 
 ## lookup:course
-data/course.txt
+-Introduction to Canadian business
+-canadian business
+-canada business
+-business
+-database management and design
+-database management & design
+-database management
+-database
+-enterprise web development
+-web development
+-web dev
+-php programming
+-php
+-object oriented programming using c++
+-OOP c++
+-c++
+-cpp
+-Topics in the contemporary workplace
+-contemporary workplace
+-workplace
 
 ## lookup:course_code
-data/course_code.txt
+-ADMN1000
+-COMP20
+-COMP206
+-COMP220
+-COMP333
+-GENE60
+
+## regex:course_code
+- \b[A-Za-z]{1,4}[0-9]{2,4}\b
