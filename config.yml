@@ -8,7 +8,6 @@ pipeline:
 - name: "SpacyTokenizer"
 - name: "RegexFeaturizer"
 - name: "SpacyFeaturizer"
-- name: "SpacyEntityExtractor"
 - name: "CRFEntityExtractor"
 - name: "EntitySynonymMapper"
 - name: "SklearnIntentClassifier"
@@ -18,4 +17,7 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: KerasPolicy
-  - name: MappingPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.4
+    core_threshold: 0.3
+    fallback_action_name: "utter_sorry"

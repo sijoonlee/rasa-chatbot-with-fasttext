@@ -18,6 +18,7 @@
 - goodbye
 - see you around
 - see you later
+- see you
 
 ## intent:search_teacher_office
 - where is [Donna](name)'s room?
@@ -116,6 +117,10 @@
 - The name is [Janis](name)
 - His name is [Bryan](name)
 - name is [James](name)
+- [Hanna](name)
+- [hanna](name)
+- [george](name)
+- [George](name)
 - [Donna Graves](name)
 - [Donna Graves](name)?
 - It is [Donna Graves](name)
@@ -125,10 +130,16 @@
 - It's [web development](course)
 - [business](course)
 - [business](course)?
+- [database](course)
+- [c++](course)?
+- [COMP20](course_code)
+- [COMP333](course_code)
+- [GENE60](course_code)
+- [COMP206](course_code)
 - It's [COMP220](course_code)
 - The course is [GENE60](course_code)
 - course is [COMP20](course_code)
-- Program is [ADMN1000](course_code)
+- Program is [ADMN1000](course_code)]
 
 ## lookup:name
 -Donna
@@ -147,6 +158,14 @@
 -James Bond
 -james
 -james bond
+
+## lookup:name
+data/first_names.txt
+data/full_names.txt
+data/last_names.txt
+data/first_names_lower.txt
+data/full_names_lower.txt
+data/last_names_lower.txt
 
 ## lookup:course
 -Introduction to Canadian business

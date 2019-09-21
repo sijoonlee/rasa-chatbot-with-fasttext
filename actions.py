@@ -45,7 +45,7 @@ class ActionSearchOffice(Action):
     def name(self):
         return 'action_search_office'
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message("called")
+        dispatcher.utter_message("search office called")
         name = tracker.get_slot("name")
         course = tracker.get_slot("course")
         course_code = tracker.get_slot("course_code")
@@ -59,7 +59,6 @@ class ActionSearchOffice(Action):
             key = "course_code"
             query = course_code
         else:
-            dispatcher.utter_message("Please specify teacher's name or course")
             return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
 
         #response = json.loads(json_util.dumps(collection.find_one({key:query.lower()})))
@@ -68,6 +67,7 @@ class ActionSearchOffice(Action):
         if response:
             office = response['room']
             dispatcher.utter_message(" office = " + office)
+            
         else:
             dispatcher.utter_message("Sorry, couldn't find in my database: " + query)
         return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
@@ -78,7 +78,7 @@ class ActionSearchOfficeHour(Action):
     def name(self):
         return 'action_search_office_hour'
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message("called")
+        dispatcher.utter_message("search office hour called")
         name = tracker.get_slot("name")
         course = tracker.get_slot("course")
         course_code = tracker.get_slot("course_code")
@@ -92,7 +92,7 @@ class ActionSearchOfficeHour(Action):
             key = "course_code"
             query = course_code
         else:
-            dispatcher.utter_message("Please specify teacher's name or course")
+            dispatcher.utter_message("?")
             return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
 
         #response = json.loads(json_util.dumps(collection.find_one({key:query.lower()})))
@@ -101,11 +101,18 @@ class ActionSearchOfficeHour(Action):
         if response:
             office_hour = response['office_hour']
             if len(office_hour) == 0:
-                dispatcher.utter_message("no office hour")
+                dispatcher.utter_message("No office hours")
             else:
                 for key, value in office_hour.items():
                     dispatcher.utter_message(key + " : " + value)
         else:
             dispatcher.utter_message("Sorry, couldn't find in my database: " + query)
+        return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
+
+class ActionSearchOfficeHour(Action):
+    def name(self):
+        return 'action_reset_search_state'
+    
+    def run(self, dispatcher, tracker, domain):
         return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
         

@@ -24,9 +24,10 @@ intents:
 actions:
 - utter_greet
 - utter_goodbye
-- utter_teacher_office
-- utter_teacher_office_hour
+- utter_debug
 - utter_ask_teacher_name_or_course
+- utter_more_questions
+- utter_sorry
 - action_search_office
 - action_search_office_hour
 
@@ -39,11 +40,15 @@ templates:
   - text: "Bye!"
   - text: "Have a nice one!"
 
-  utter_teacher_office:
-  - text: "Debug Purpose Name {name} Course {course} Code {course_code}" 
-
-  utter_teacher_office_hour:
-  - text: "office hour"
+  utter_debug:
+  - text: "Name : {name} Course : {course} Code : {course_code}" 
 
   utter_ask_teacher_name_or_course:
   - text: "Could you specify teacher's name or teacher's course?"
+  
+  utter_more_questions:
+  - text: "Do you have more questions?"
+
+  utter_sorry:
+  - text: "Sorry! I am quite not sure what you just told me. I am still in the development. Try out questions such as 'Where is Donna's office?' or 'Donna's office hours?'"
+  - text: "I am sorry, I just couldn't understand. I am still in the development. Try out questions such as 'Where is Donna's office?' or 'Donna's office hours?'"
