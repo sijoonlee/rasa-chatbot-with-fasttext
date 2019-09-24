@@ -37,7 +37,11 @@ from pymongo import MongoClient
 from bson import json_util, ObjectId
 import json
 
-client = MongoClient('mongodb://127.0.0.1:27017')
+# client = MongoClient('mongodb://127.0.0.1:27017')
+config_file = open("./config/mongodb", "r+")
+mongodb_address = config_file.read()
+client = MongoClient(mongodb_address)
+
 db = client.slc_db
 collection = db.teachers
 
@@ -59,13 +63,13 @@ class ActionSearchOffice(Action):
             key = "course_code"
             query = course_code
         else:
-            return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
+            return [SlotSet('is_false_call', 'True')]
 
         #response = json.loads(json_util.dumps(collection.find_one({key:query.lower()})))
         response = json.loads(json_util.dumps(collection.find_one({key:{'$regex':query.lower()}})))
         
         if response:
-            office = response['room']
+            office = response['office']
             dispatcher.utter_message(" office = " + office)
             
         else:
@@ -93,7 +97,7 @@ class ActionSearchOfficeHour(Action):
             query = course_code
         else:
             dispatcher.utter_message("?")
-            return [SlotSet('name', ''), SlotSet('course', ''), SlotSet('course_code', '')]
+            return [SlotSet('is_false_call', 'True')]
 
         #response = json.loads(json_util.dumps(collection.find_one({key:query.lower()})))
         response = json.loads(json_util.dumps(collection.find_one({key:{'$regex':query.lower()}})))

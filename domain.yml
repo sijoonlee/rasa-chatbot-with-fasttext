@@ -8,9 +8,12 @@ slots:
   course_code:
     type: text
     initial_value: ""
+  is_false_call:
+    type: bool
+    initial_value: True
 
 entities:
-- name
+- PERSON
 - course
 - course_code
 

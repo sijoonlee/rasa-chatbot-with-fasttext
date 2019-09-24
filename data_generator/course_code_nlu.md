@@ -1,0 +1,48 @@
+- want to know where [admn1000](COURSE_CODE)'s office is
+- I need to find [admn1000](COURSE_CODE)'s office
+- I need to find [admn1000](COURSE_CODE)'s office
+- I want to know where [admn1000](COURSE_CODE) office is
+- Do you know [comp20](COURSE_CODE)'s office?
+- where is [comp20](COURSE_CODE) office?
+- Do you know [comp20](COURSE_CODE)'s office?
+- wanna know where [comp20](COURSE_CODE)'s office is
+- where is [comp206](COURSE_CODE) office?
+- wanna know [comp206](COURSE_CODE) office
+- find me [comp206](COURSE_CODE)'s office
+- find me [comp206](COURSE_CODE)'s office
+- [comp220](COURSE_CODE) office?
+- where is [comp220](COURSE_CODE)'s office?
+- I need to find [comp220](COURSE_CODE)'s office
+- Could you let me know [comp220](COURSE_CODE)'s office?
+- Do you know [comp333](COURSE_CODE) office number?
+- [comp333](COURSE_CODE)'s office?
+- where is [comp333](COURSE_CODE)'s office?
+- Could you let me know [comp333](COURSE_CODE)'s office?
+- Can I have [gene60](COURSE_CODE)'s office number?
+- where is [gene60](COURSE_CODE) office?
+- Do you know [gene60](COURSE_CODE)'s office?
+- Can I have [gene60](COURSE_CODE)'s office number?
+- want to know where [ADMN1000](COURSE_CODE)'s office is
+- I want to know where [ADMN1000](COURSE_CODE) office is
+- wanna know where [ADMN1000](COURSE_CODE)'s office is
+- find me [ADMN1000](COURSE_CODE)'s office
+- Do you know [COMP20](COURSE_CODE)'s office?
+- Do you know [COMP20](COURSE_CODE)'s office?
+- wanna know where [COMP20](COURSE_CODE)'s office is
+- find me [COMP20](COURSE_CODE)'s office
+- find me [COMP206](COURSE_CODE)'s office
+- Could you let me know [COMP206](COURSE_CODE)'s office?
+- I want to know where [COMP206](COURSE_CODE) office is
+- where is [COMP206](COURSE_CODE) office?
+- wanna know [COMP220](COURSE_CODE) office
+- I want to know where [COMP220](COURSE_CODE) office is
+- [COMP220](COURSE_CODE) office?
+- find me [COMP220](COURSE_CODE) office
+- want to know where [COMP333](COURSE_CODE)'s office is
+- where is [COMP333](COURSE_CODE)'s office?
+- find me [COMP333](COURSE_CODE)'s office
+- Can I have [COMP333](COURSE_CODE)'s office number?
+- find me [GENE60](COURSE_CODE) office
+- where is [GENE60](COURSE_CODE) office?
+- I need to find [GENE60](COURSE_CODE)'s office
+- where is [GENE60](COURSE_CODE)'s office?

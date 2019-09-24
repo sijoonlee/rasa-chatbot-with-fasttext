@@ -1,0 +1,489 @@
+
+## regex:course_code
+- \b[A-Za-z]{1,4}[0-9]{2,4}\b
+
+## regex:search_teacher_office_hour
+- \boffice hours?\b
+- \bhours?\b
+
+## intent:greet
+- hey
+- Hey
+- hello
+- Hello
+- hi
+- Hi
+- hi!
+- good morning
+- good evening
+- hey there
+- hi hi
+- hello there
+- heeey
+- hi bot
+ 
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- see you
+
+## intent:search_teacher_office
+- find me office
+- wanna know office
+- want to know office
+- I want to know office
+- I\'d like to know office
+- office?
+- looking for teacher\'s room',
+- looking for teacher\'s office',
+- where is [Donna Graves](PERSON)'s office?
+- where is [Donna Graves](PERSON)'s office?
+- I want to know where [Donna Graves](PERSON) office is
+- find me [Donna Graves](PERSON) office
+- wanna know where [Donna Graves](PERSON)'s room is
+- where is [Donna Graves](PERSON)'s office?
+- where is [Sue Haywood](PERSON) office?
+- Can I have [Sue Haywood](PERSON)'s office number?
+- find me [Sue Haywood](PERSON)'s office
+- where is [Sue Haywood](PERSON) office?
+- Do you know [Sue Haywood](PERSON) office number?
+- Can I have [Sue Haywood](PERSON)'s office number?
+- where is [Bryan Elliott](PERSON) office?
+- where is [Bryan Elliott](PERSON)'s room?
+- wanna know where [Bryan Elliott](PERSON)'s room is
+- find me [Bryan Elliott](PERSON)'s office
+- [Bryan Elliott](PERSON) office?
+- Do you know [Bryan Elliott](PERSON) office number?
+- Do you know [Janis Michael](PERSON) office number?
+- find me [Janis Michael](PERSON)'s office
+- Do you know [Janis Michael](PERSON)'s office?
+- wanna know where [Janis Michael](PERSON)'s office is
+- I want to know where [Janis Michael](PERSON) office is
+- I want to know where [Janis Michael](PERSON) office is
+- Do you know [Colin Banger](PERSON)'s office?
+- I need to find [Colin Banger](PERSON)'s office
+- wanna know where [Colin Banger](PERSON)'s room is
+- I want to know where [Colin Banger](PERSON) office is
+- Do you know [Colin Banger](PERSON) office number?
+- find me [Colin Banger](PERSON)'s office
+- Do you know [Catherine Bell](PERSON) office number?
+- I want to know where [Catherine Bell](PERSON) office is
+- Could you let me know [Catherine Bell](PERSON)'s room?
+- I'd like to know where [Catherine Bell](PERSON)'s room is
+- where is [Catherine Bell](PERSON)'s office?
+- I want to know where [Catherine Bell](PERSON) office is
+- Do you know [donna graves](PERSON)'s office?
+- I want to know where [donna graves](PERSON) office is
+- find me [donna graves](PERSON) office
+- where is [donna graves](PERSON) office?
+- where is [donna graves](PERSON) office?
+- [donna graves](PERSON)'s office?
+- find me [sue haywood](PERSON) office
+- want to know where [sue haywood](PERSON)'s office is
+- I need to find [sue haywood](PERSON)'s office
+- find me [sue haywood](PERSON) office
+- find me [sue haywood](PERSON)'s office
+- find me [sue haywood](PERSON) office
+- [bryan elliott](PERSON) office?
+- wanna know [bryan elliott](PERSON) office
+- wanna know where [bryan elliott](PERSON)'s room is
+- wanna know where [bryan elliott](PERSON)'s room is
+- Can I have [bryan elliott](PERSON)'s office number?
+- [bryan elliott](PERSON) office?
+- where is [janis michael](PERSON)'s room?
+- where is [janis michael](PERSON)'s room?
+- Do you know [janis michael](PERSON) office number?
+- Do you know [janis michael](PERSON) office number?
+- where is [janis michael](PERSON)'s room?
+- find me [janis michael](PERSON) office
+- want to know where [colin banger](PERSON)'s office is
+- wanna know where [colin banger](PERSON)'s office is
+- where is [colin banger](PERSON)'s office?
+- find me [colin banger](PERSON)'s office
+- [colin banger](PERSON)'s office?
+- want to know where [colin banger](PERSON)'s office is
+- [catherine bell](PERSON) office?
+- I want to know where [catherine bell](PERSON) office is
+- find me [catherine bell](PERSON) office
+- where is [catherine bell](PERSON) office?
+- find me [catherine bell](PERSON)'s office
+- [catherine bell](PERSON)'s office?
+- [Donna](PERSON) office?
+- wanna know where [Donna](PERSON)'s office is
+- I need to find [Donna](PERSON)'s office
+- Could you let me know [Donna](PERSON)'s office?
+- where is [Donna](PERSON) office?
+- find me [Donna](PERSON)'s office
+- wanna know where [Graves](PERSON)'s office is
+- I need to find [Graves](PERSON)'s office
+- Could you let me know [Graves](PERSON)'s office?
+- I'd like to know where [Graves](PERSON)'s room is
+- Could you let me know [Graves](PERSON)'s office?
+- Do you know [Graves](PERSON) office number?
+- find me [Sue](PERSON) office
+- find me [Sue](PERSON)'s office
+- where is [Sue](PERSON) office?
+- where is [Sue](PERSON)'s office?
+- Do you know [Sue](PERSON)'s office?
+- wanna know where [Sue](PERSON)'s office is
+- where is [Haywood](PERSON) office?
+- where is [Haywood](PERSON)'s office?
+- find me [Haywood](PERSON) office
+- wanna know [Haywood](PERSON) office
+- Can I have [Haywood](PERSON)'s office number?
+- Could you let me know [Haywood](PERSON)'s room?
+- wanna know [Bryan](PERSON) office
+- want to know where [Bryan](PERSON)'s office is
+- wanna know where [Bryan](PERSON)'s room is
+- I want to know where [Bryan](PERSON) office is
+- [Bryan](PERSON) office?
+- find me [Bryan](PERSON)'s office
+- Could you let me know [Elliott](PERSON)'s room?
+- I want to know where [Elliott](PERSON) office is
+- Do you know [Elliott](PERSON) office number?
+- find me [Elliott](PERSON) office
+- Do you know [Elliott](PERSON)'s office?
+- wanna know [Elliott](PERSON) office
+- I want to know where [Janis](PERSON) office is
+- wanna know where [Janis](PERSON)'s office is
+- Can I have [Janis](PERSON)'s office number?
+- I need to find [Janis](PERSON)'s office
+- [Janis](PERSON)'s office?
+- find me [Janis](PERSON)'s office
+- want to know where [Michael](PERSON)'s office is
+- I'd like to know where [Michael](PERSON)'s room is
+- where is [Michael](PERSON)'s room?
+- wanna know [Michael](PERSON) office
+- I want to know where [Michael](PERSON) office is
+- Could you let me know [Michael](PERSON)'s room?
+- wanna know [Colin](PERSON) office
+- Could you let me know [Colin](PERSON)'s room?
+- wanna know where [Colin](PERSON)'s office is
+- want to know where [Colin](PERSON)'s office is
+- Can I have [Colin](PERSON)'s office number?
+- I want to know where [Colin](PERSON) office is
+- where is [Banger](PERSON)'s room?
+- find me [Banger](PERSON) office
+- I'd like to know where [Banger](PERSON)'s room is
+- Do you know [Banger](PERSON) office number?
+- wanna know where [Banger](PERSON)'s office is
+- find me [Banger](PERSON) office
+- I need to find [Catherine](PERSON)'s office
+- wanna know where [Catherine](PERSON)'s room is
+- where is [Catherine](PERSON)'s office?
+- wanna know where [Catherine](PERSON)'s room is
+- find me [Catherine](PERSON)'s office
+- find me [Catherine](PERSON) office
+- I'd like to know where [Bell](PERSON)'s room is
+- [Bell](PERSON)'s office?
+- I'd like to know where [Bell](PERSON)'s room is
+- Do you know [Bell](PERSON) office number?
+- where is [Bell](PERSON)'s office?
+- find me [Bell](PERSON) office
+- where is [donna](PERSON)'s room?
+- where is [donna](PERSON)'s office?
+- Could you let me know [donna](PERSON)'s room?
+- want to know where [donna](PERSON)'s room is
+- find me [donna](PERSON)'s office
+- Do you know [donna](PERSON)'s office?
+- wanna know where [graves](PERSON)'s office is
+- want to know where [graves](PERSON)'s room is
+- where is [graves](PERSON)'s office?
+- Could you let me know [graves](PERSON)'s office?
+- Do you know [graves](PERSON) office number?
+- find me [graves](PERSON) office
+- Could you let me know [sue](PERSON)'s office?
+- I need to find [sue](PERSON)'s office
+- I'd like to know where [sue](PERSON)'s room is
+- wanna know where [sue](PERSON)'s office is
+- where is [sue](PERSON) office?
+- where is [sue](PERSON)'s office?
+- I'd like to know where [haywood](PERSON)'s room is
+- find me [haywood](PERSON)'s office
+- I need to find [haywood](PERSON)'s office
+- where is [haywood](PERSON) office?
+- find me [haywood](PERSON)'s office
+- where is [haywood](PERSON)'s office?
+- Could you let me know [bryan](PERSON)'s room?
+- find me [bryan](PERSON) office
+- where is [bryan](PERSON)'s room?
+- where is [bryan](PERSON) office?
+- Can I have [bryan](PERSON)'s office number?
+- [bryan](PERSON)'s office?
+- [elliott](PERSON)'s office?
+- I want to know where [elliott](PERSON) office is
+- Do you know [elliott](PERSON)'s office?
+- [elliott](PERSON) office?
+- I'd like to know where [elliott](PERSON)'s room is
+- Could you let me know [elliott](PERSON)'s office?
+- find me [janis](PERSON)'s office
+- I'd like to know where [janis](PERSON)'s room is
+- want to know where [janis](PERSON)'s room is
+- want to know where [janis](PERSON)'s office is
+- wanna know [janis](PERSON) office
+- want to know where [janis](PERSON)'s room is
+- where is [michael](PERSON) office?
+- want to know where [michael](PERSON)'s office is
+- wanna know where [michael](PERSON)'s room is
+- want to know where [michael](PERSON)'s office is
+- find me [michael](PERSON)'s office
+- want to know where [michael](PERSON)'s office is
+- wanna know where [colin](PERSON)'s office is
+- Could you let me know [colin](PERSON)'s office?
+- [colin](PERSON)'s office?
+- Do you know [colin](PERSON) office number?
+- want to know where [colin](PERSON)'s room is
+- where is [colin](PERSON)'s office?
+- wanna know where [banger](PERSON)'s office is
+- I'd like to know where [banger](PERSON)'s room is
+- I'd like to know where [banger](PERSON)'s room is
+- find me [banger](PERSON) office
+- find me [banger](PERSON) office
+- Could you let me know [banger](PERSON)'s office?
+- want to know where [catherine](PERSON)'s office is
+- Do you know [catherine](PERSON)'s office?
+- where is [catherine](PERSON)'s office?
+- find me [catherine](PERSON) office
+- where is [catherine](PERSON) office?
+- Can I have [catherine](PERSON)'s office number?
+- Could you let me know [bell](PERSON)'s office?
+- Do you know [bell](PERSON) office number?
+- [bell](PERSON)'s office?
+- I'd like to know where [bell](PERSON)'s room is
+- [bell](PERSON)'s office?
+- I need to find [bell](PERSON)'s office
+
+- find me [introduction to canadian business](COURSE) office
+- Can I have [introduction to canadian business](COURSE)'s office number?
+- find me [introduction to canadian business](COURSE)'s office
+- wanna know where [introduction to canadian business](COURSE)'s office is
+- I need to find [business](COURSE)'s office
+- [business](COURSE) office?
+- I need to find [business](COURSE)'s office
+- find me [business](COURSE) office
+- Could you let me know [ddatabase management and design](COURSE)'s office?
+- Do you know [ddatabase management and design](COURSE)'s office?
+- Do you know [ddatabase management and design](COURSE)'s office?
+- Could you let me know [ddatabase management and design](COURSE)'s office?
+- find me [database management](COURSE)'s office
+- Could you let me know [database management](COURSE)'s office?
+- I want to know where [database management](COURSE) office is
+- [database management](COURSE) office?
+- Do you know [database](COURSE)'s office?
+- wanna know where [database](COURSE)'s office is
+- Do you know [database](COURSE)'s office?
+- find me [database](COURSE)'s office
+- wanna know where [enterprise web development](COURSE)'s office is
+- Do you know [enterprise web development](COURSE)'s office?
+- [enterprise web development](COURSE) office?
+- find me [enterprise web development](COURSE)'s office
+- I need to find [web development](COURSE)'s office
+- find me [web development](COURSE)'s office
+- where is [web development](COURSE)'s office?
+- I want to know where [web development](COURSE) office is
+- Could you let me know [web dev](COURSE)'s office?
+- Do you know [web dev](COURSE) office number?
+- find me [web dev](COURSE) office
+- I want to know where [web dev](COURSE) office is
+- want to know where [php programming](COURSE)'s office is
+- I want to know where [php programming](COURSE) office is
+- find me [php programming](COURSE)'s office
+- Can I have [php programming](COURSE)'s office number?
+- find me [php](COURSE) office
+- Could you let me know [php](COURSE)'s office?
+- find me [php](COURSE) office
+- Can I have [php](COURSE)'s office number?
+- [object oriented programming using c++](COURSE)'s office?
+- find me [object oriented programming using c++](COURSE)'s office
+- where is [object oriented programming using c++](COURSE) office?
+- where is [object oriented programming using c++](COURSE) office?
+- Can I have [c++](COURSE)'s office number?
+- Do you know [c++](COURSE)'s office?
+- [c++](COURSE)'s office?
+- find me [c++](COURSE) office
+- I want to know where [topics in the contemporary workplace](COURSE) office is
+- find me [topics in the contemporary workplace](COURSE)'s office
+- find me [topics in the contemporary workplace](COURSE)'s office
+- I want to know where [topics in the contemporary workplace](COURSE) office is
+- find me [contemporary workplace](COURSE) office
+- Can I have [contemporary workplace](COURSE)'s office number?
+- find me [contemporary workplace](COURSE) office
+- find me [contemporary workplace](COURSE)'s office
+- find me [Introduction to Canadian Business](COURSE)'s office
+- [Introduction to Canadian Business](COURSE)'s office?
+- Do you know [Introduction to Canadian Business](COURSE)'s office?
+- [Introduction to Canadian Business](COURSE) office?
+- I need to find [Business](COURSE)'s office
+- find me [Business](COURSE)'s office
+- where is [Business](COURSE)'s office?
+- wanna know [Business](COURSE) office
+- Can I have [Ddatabase Management and Design](COURSE)'s office number?
+- [Ddatabase Management and Design](COURSE) office?
+- find me [Ddatabase Management and Design](COURSE) office
+- find me [Ddatabase Management and Design](COURSE)'s office
+- Do you know [Database Management](COURSE) office number?
+- find me [Database Management](COURSE)'s office
+- wanna know where [Database Management](COURSE)'s office is
+- find me [Database Management](COURSE) office
+- where is [Database](COURSE)'s office?
+- [Database](COURSE) office?
+- wanna know [Database](COURSE) office
+- I want to know where [Database](COURSE) office is
+- find me [Enterprise Web Development](COURSE) office
+- find me [Enterprise Web Development](COURSE)'s office
+- Do you know [Enterprise Web Development](COURSE)'s office?
+- Can I have [Enterprise Web Development](COURSE)'s office number?
+- where is [Web Development](COURSE) office?
+- Can I have [Web Development](COURSE)'s office number?
+- want to know where [Web Development](COURSE)'s office is
+- [Web Development](COURSE) office?
+- [Web Dev](COURSE) office?
+- I need to find [Web Dev](COURSE)'s office
+- want to know where [Web Dev](COURSE)'s office is
+- wanna know [Web Dev](COURSE) office
+- find me [Php Programming](COURSE) office
+- [Php Programming](COURSE) office?
+- wanna know [Php Programming](COURSE) office
+- [Php Programming](COURSE)'s office?
+- Do you know [Php](COURSE) office number?
+- Could you let me know [Php](COURSE)'s office?
+- where is [Php](COURSE) office?
+- find me [Php](COURSE)'s office
+- where is [Object Oriented Programming Using C++](COURSE) office?
+- find me [Object Oriented Programming Using C++](COURSE)'s office
+- find me [Object Oriented Programming Using C++](COURSE) office
+- Can I have [Object Oriented Programming Using C++](COURSE)'s office number?
+- wanna know [C++](COURSE) office
+- [C++](COURSE)'s office?
+- Can I have [C++](COURSE)'s office number?
+- I need to find [C++](COURSE)'s office
+- want to know where [Topics in the Contemporary Workplace](COURSE)'s office is
+- wanna know where [Topics in the Contemporary Workplace](COURSE)'s office is
+- find me [Topics in the Contemporary Workplace](COURSE) office
+- where is [Topics in the Contemporary Workplace](COURSE) office?
+- where is [Contemporary Workplace](COURSE) office?
+- find me [Contemporary Workplace](COURSE)'s office
+- Do you know [Contemporary Workplace](COURSE)'s office?
+- Can I have [Contemporary Workplace](COURSE)'s office number?
+
+- want to know where [admn1000](COURSE_CODE)'s office is
+- I need to find [admn1000](COURSE_CODE)'s office
+- I need to find [admn1000](COURSE_CODE)'s office
+- I want to know where [admn1000](COURSE_CODE) office is
+- Do you know [comp20](COURSE_CODE)'s office?
+- where is [comp20](COURSE_CODE) office?
+- Do you know [comp20](COURSE_CODE)'s office?
+- wanna know where [comp20](COURSE_CODE)'s office is
+- where is [comp206](COURSE_CODE) office?
+- wanna know [comp206](COURSE_CODE) office
+- find me [comp206](COURSE_CODE)'s office
+- find me [comp206](COURSE_CODE)'s office
+- [comp220](COURSE_CODE) office?
+- where is [comp220](COURSE_CODE)'s office?
+- I need to find [comp220](COURSE_CODE)'s office
+- Could you let me know [comp220](COURSE_CODE)'s office?
+- Do you know [comp333](COURSE_CODE) office number?
+- [comp333](COURSE_CODE)'s office?
+- where is [comp333](COURSE_CODE)'s office?
+- Could you let me know [comp333](COURSE_CODE)'s office?
+- Can I have [gene60](COURSE_CODE)'s office number?
+- where is [gene60](COURSE_CODE) office?
+- Do you know [gene60](COURSE_CODE)'s office?
+- Can I have [gene60](COURSE_CODE)'s office number?
+- want to know where [ADMN1000](COURSE_CODE)'s office is
+- I want to know where [ADMN1000](COURSE_CODE) office is
+- wanna know where [ADMN1000](COURSE_CODE)'s office is
+- find me [ADMN1000](COURSE_CODE)'s office
+- Do you know [COMP20](COURSE_CODE)'s office?
+- Do you know [COMP20](COURSE_CODE)'s office?
+- wanna know where [COMP20](COURSE_CODE)'s office is
+- find me [COMP20](COURSE_CODE)'s office
+- find me [COMP206](COURSE_CODE)'s office
+- Could you let me know [COMP206](COURSE_CODE)'s office?
+- I want to know where [COMP206](COURSE_CODE) office is
+- where is [COMP206](COURSE_CODE) office?
+- wanna know [COMP220](COURSE_CODE) office
+- I want to know where [COMP220](COURSE_CODE) office is
+- [COMP220](COURSE_CODE) office?
+- find me [COMP220](COURSE_CODE) office
+- want to know where [COMP333](COURSE_CODE)'s office is
+- where is [COMP333](COURSE_CODE)'s office?
+- find me [COMP333](COURSE_CODE)'s office
+- Can I have [COMP333](COURSE_CODE)'s office number?
+- find me [GENE60](COURSE_CODE) office
+- where is [GENE60](COURSE_CODE) office?
+- I need to find [GENE60](COURSE_CODE)'s office
+- where is [GENE60](COURSE_CODE)'s office?
+
+
+
+
+
+## intent:search_teacher_office_hour
+- I want to know [Donna](PERSON)'s office hour
+- Could you let me know [James](PERSON)'s office hour?
+- when is [Hanna](PERSON)'s office hours?
+- when is [Janis](PERSON) office hours?
+- when is [web development](course) teacher's office hour?
+- when is [database](course) teacher's office hours?
+- when is [business](course) professor's hours?
+- when is [php](course) prof's office hour?
+- when is [php programming](course) prof hours?
+- when is [COMP20](course_code) teacher's office hours?
+- when is [COMP220](course_code) teacher office hour?
+- when is [COMP206](course_code) teacher's office hours?
+- when is [GENE60](course_code) prof's office hours?
+- when is [ADMN1000](course_code) prof office hour?
+- When is [C++](course) teacher available hours?
+- When is [C++](course) professor available?
+- When is [Donna](PERSON) available?
+- find me office hours
+- find me [Janis](PERSON) office hour
+- find me [database](course) office hours
+- find me [COMP20](course_code) office hour
+- let me know office hours
+- wanna know office hour
+- wanna know [Janis](PERSON) office hours
+- wanna know [database](course) office hour
+- wanna know [COMP20](course_code) office hours
+- want to know office hours
+- I want to know office hour
+- I'd like to know office hours
+- office hours?
+- office hour?
+- hour?
+- When can I meet [Donna](PERSON)?
+- When can I meet [database](course) teacher?
+- When can I meet [database](course) professor?
+
+## intent:inform
+- Her name is [Donna](PERSON)
+- The name is [Janis](PERSON)
+- His name is [Bryan](PERSON)
+- name is [James](PERSON)
+- [Hanna](PERSON)
+- [hanna](PERSON)
+- [george](PERSON)
+- [George](PERSON)
+- [Donna Graves](PERSON)
+- [Donna Graves](PERSON)?
+- It is [Donna Graves](PERSON)
+- The course is [C++](course)
+- course is [database](course)
+- It is [web dev](course)
+- It's [web development](course)
+- [business](course)
+- [business](course)?
+- [database](course)
+- [c++](course)?
+- [COMP20](course_code)
+- [COMP333](course_code)
+- [GENE60](course_code)
+- [COMP206](course_code)
+- It's [COMP220](course_code)
+- The course is [GENE60](course_code)
+- course is [COMP20](course_code)
+- Program is [ADMN1000](course_code)]
+

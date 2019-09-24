@@ -6,8 +6,8 @@ pipeline:
 - name: "SpacyNLP" 
   model: "../fasttext/wiki-news-300d-1M-subword"
 - name: "SpacyTokenizer"
-- name: "RegexFeaturizer"
 - name: "SpacyFeaturizer"
+- name: "RegexFeaturizer"
 - name: "CRFEntityExtractor"
 - name: "EntitySynonymMapper"
 - name: "SklearnIntentClassifier"
@@ -18,6 +18,6 @@ policies:
   - name: MemoizationPolicy
   - name: KerasPolicy
   - name: FallbackPolicy
-    nlu_threshold: 0.4
-    core_threshold: 0.3
+    nlu_threshold: 0.5
+    core_threshold: 0.5
     fallback_action_name: "utter_sorry"

@@ -24,6 +24,7 @@ Words or phrases that the chatbot is trained to recognize
 - Name : For example, "Donna Graves". First name, last name and full name are acceptable for user inputs.  
 - Course Name : For example, "Object Oriented Programming with C++". The part of the name is acceptable as user inputs.  
 - Course Code : For example, "COMP333". Only fully typed one is acceptable.  
+cf) names data was obtaiend from [random-name](https://github.com/dominictarr/random-name) and processed further.
 
 ### Stories  
 Two main streams to deal with user's questions  

@@ -1,0 +1,217 @@
+## intent:search_teacher_office
+- where is [Donna Graves](PERSON)'s office?
+- where is [Donna Graves](PERSON)'s office?
+- I want to know where [Donna Graves](PERSON) office is
+- find me [Donna Graves](PERSON) office
+- wanna know where [Donna Graves](PERSON)'s room is
+- where is [Donna Graves](PERSON)'s office?
+- where is [Sue Haywood](PERSON) office?
+- Can I have [Sue Haywood](PERSON)'s office number?
+- find me [Sue Haywood](PERSON)'s office
+- where is [Sue Haywood](PERSON) office?
+- Do you know [Sue Haywood](PERSON) office number?
+- Can I have [Sue Haywood](PERSON)'s office number?
+- where is [Bryan Elliott](PERSON) office?
+- where is [Bryan Elliott](PERSON)'s room?
+- wanna know where [Bryan Elliott](PERSON)'s room is
+- find me [Bryan Elliott](PERSON)'s office
+- [Bryan Elliott](PERSON) office?
+- Do you know [Bryan Elliott](PERSON) office number?
+- Do you know [Janis Michael](PERSON) office number?
+- find me [Janis Michael](PERSON)'s office
+- Do you know [Janis Michael](PERSON)'s office?
+- wanna know where [Janis Michael](PERSON)'s office is
+- I want to know where [Janis Michael](PERSON) office is
+- I want to know where [Janis Michael](PERSON) office is
+- Do you know [Colin Banger](PERSON)'s office?
+- I need to find [Colin Banger](PERSON)'s office
+- wanna know where [Colin Banger](PERSON)'s room is
+- I want to know where [Colin Banger](PERSON) office is
+- Do you know [Colin Banger](PERSON) office number?
+- find me [Colin Banger](PERSON)'s office
+- Do you know [Catherine Bell](PERSON) office number?
+- I want to know where [Catherine Bell](PERSON) office is
+- Could you let me know [Catherine Bell](PERSON)'s room?
+- I'd like to know where [Catherine Bell](PERSON)'s room is
+- where is [Catherine Bell](PERSON)'s office?
+- I want to know where [Catherine Bell](PERSON) office is
+- Do you know [donna graves](PERSON)'s office?
+- I want to know where [donna graves](PERSON) office is
+- find me [donna graves](PERSON) office
+- where is [donna graves](PERSON) office?
+- where is [donna graves](PERSON) office?
+- [donna graves](PERSON)'s office?
+- find me [sue haywood](PERSON) office
+- want to know where [sue haywood](PERSON)'s office is
+- I need to find [sue haywood](PERSON)'s office
+- find me [sue haywood](PERSON) office
+- find me [sue haywood](PERSON)'s office
+- find me [sue haywood](PERSON) office
+- [bryan elliott](PERSON) office?
+- wanna know [bryan elliott](PERSON) office
+- wanna know where [bryan elliott](PERSON)'s room is
+- wanna know where [bryan elliott](PERSON)'s room is
+- Can I have [bryan elliott](PERSON)'s office number?
+- [bryan elliott](PERSON) office?
+- where is [janis michael](PERSON)'s room?
+- where is [janis michael](PERSON)'s room?
+- Do you know [janis michael](PERSON) office number?
+- Do you know [janis michael](PERSON) office number?
+- where is [janis michael](PERSON)'s room?
+- find me [janis michael](PERSON) office
+- want to know where [colin banger](PERSON)'s office is
+- wanna know where [colin banger](PERSON)'s office is
+- where is [colin banger](PERSON)'s office?
+- find me [colin banger](PERSON)'s office
+- [colin banger](PERSON)'s office?
+- want to know where [colin banger](PERSON)'s office is
+- [catherine bell](PERSON) office?
+- I want to know where [catherine bell](PERSON) office is
+- find me [catherine bell](PERSON) office
+- where is [catherine bell](PERSON) office?
+- find me [catherine bell](PERSON)'s office
+- [catherine bell](PERSON)'s office?
+- [Donna](PERSON) office?
+- wanna know where [Donna](PERSON)'s office is
+- I need to find [Donna](PERSON)'s office
+- Could you let me know [Donna](PERSON)'s office?
+- where is [Donna](PERSON) office?
+- find me [Donna](PERSON)'s office
+- wanna know where [Graves](PERSON)'s office is
+- I need to find [Graves](PERSON)'s office
+- Could you let me know [Graves](PERSON)'s office?
+- I'd like to know where [Graves](PERSON)'s room is
+- Could you let me know [Graves](PERSON)'s office?
+- Do you know [Graves](PERSON) office number?
+- find me [Sue](PERSON) office
+- find me [Sue](PERSON)'s office
+- where is [Sue](PERSON) office?
+- where is [Sue](PERSON)'s office?
+- Do you know [Sue](PERSON)'s office?
+- wanna know where [Sue](PERSON)'s office is
+- where is [Haywood](PERSON) office?
+- where is [Haywood](PERSON)'s office?
+- find me [Haywood](PERSON) office
+- wanna know [Haywood](PERSON) office
+- Can I have [Haywood](PERSON)'s office number?
+- Could you let me know [Haywood](PERSON)'s room?
+- wanna know [Bryan](PERSON) office
+- want to know where [Bryan](PERSON)'s office is
+- wanna know where [Bryan](PERSON)'s room is
+- I want to know where [Bryan](PERSON) office is
+- [Bryan](PERSON) office?
+- find me [Bryan](PERSON)'s office
+- Could you let me know [Elliott](PERSON)'s room?
+- I want to know where [Elliott](PERSON) office is
+- Do you know [Elliott](PERSON) office number?
+- find me [Elliott](PERSON) office
+- Do you know [Elliott](PERSON)'s office?
+- wanna know [Elliott](PERSON) office
+- I want to know where [Janis](PERSON) office is
+- wanna know where [Janis](PERSON)'s office is
+- Can I have [Janis](PERSON)'s office number?
+- I need to find [Janis](PERSON)'s office
+- [Janis](PERSON)'s office?
+- find me [Janis](PERSON)'s office
+- want to know where [Michael](PERSON)'s office is
+- I'd like to know where [Michael](PERSON)'s room is
+- where is [Michael](PERSON)'s room?
+- wanna know [Michael](PERSON) office
+- I want to know where [Michael](PERSON) office is
+- Could you let me know [Michael](PERSON)'s room?
+- wanna know [Colin](PERSON) office
+- Could you let me know [Colin](PERSON)'s room?
+- wanna know where [Colin](PERSON)'s office is
+- want to know where [Colin](PERSON)'s office is
+- Can I have [Colin](PERSON)'s office number?
+- I want to know where [Colin](PERSON) office is
+- where is [Banger](PERSON)'s room?
+- find me [Banger](PERSON) office
+- I'd like to know where [Banger](PERSON)'s room is
+- Do you know [Banger](PERSON) office number?
+- wanna know where [Banger](PERSON)'s office is
+- find me [Banger](PERSON) office
+- I need to find [Catherine](PERSON)'s office
+- wanna know where [Catherine](PERSON)'s room is
+- where is [Catherine](PERSON)'s office?
+- wanna know where [Catherine](PERSON)'s room is
+- find me [Catherine](PERSON)'s office
+- find me [Catherine](PERSON) office
+- I'd like to know where [Bell](PERSON)'s room is
+- [Bell](PERSON)'s office?
+- I'd like to know where [Bell](PERSON)'s room is
+- Do you know [Bell](PERSON) office number?
+- where is [Bell](PERSON)'s office?
+- find me [Bell](PERSON) office
+- where is [donna](PERSON)'s room?
+- where is [donna](PERSON)'s office?
+- Could you let me know [donna](PERSON)'s room?
+- want to know where [donna](PERSON)'s room is
+- find me [donna](PERSON)'s office
+- Do you know [donna](PERSON)'s office?
+- wanna know where [graves](PERSON)'s office is
+- want to know where [graves](PERSON)'s room is
+- where is [graves](PERSON)'s office?
+- Could you let me know [graves](PERSON)'s office?
+- Do you know [graves](PERSON) office number?
+- find me [graves](PERSON) office
+- Could you let me know [sue](PERSON)'s office?
+- I need to find [sue](PERSON)'s office
+- I'd like to know where [sue](PERSON)'s room is
+- wanna know where [sue](PERSON)'s office is
+- where is [sue](PERSON) office?
+- where is [sue](PERSON)'s office?
+- I'd like to know where [haywood](PERSON)'s room is
+- find me [haywood](PERSON)'s office
+- I need to find [haywood](PERSON)'s office
+- where is [haywood](PERSON) office?
+- find me [haywood](PERSON)'s office
+- where is [haywood](PERSON)'s office?
+- Could you let me know [bryan](PERSON)'s room?
+- find me [bryan](PERSON) office
+- where is [bryan](PERSON)'s room?
+- where is [bryan](PERSON) office?
+- Can I have [bryan](PERSON)'s office number?
+- [bryan](PERSON)'s office?
+- [elliott](PERSON)'s office?
+- I want to know where [elliott](PERSON) office is
+- Do you know [elliott](PERSON)'s office?
+- [elliott](PERSON) office?
+- I'd like to know where [elliott](PERSON)'s room is
+- Could you let me know [elliott](PERSON)'s office?
+- find me [janis](PERSON)'s office
+- I'd like to know where [janis](PERSON)'s room is
+- want to know where [janis](PERSON)'s room is
+- want to know where [janis](PERSON)'s office is
+- wanna know [janis](PERSON) office
+- want to know where [janis](PERSON)'s room is
+- where is [michael](PERSON) office?
+- want to know where [michael](PERSON)'s office is
+- wanna know where [michael](PERSON)'s room is
+- want to know where [michael](PERSON)'s office is
+- find me [michael](PERSON)'s office
+- want to know where [michael](PERSON)'s office is
+- wanna know where [colin](PERSON)'s office is
+- Could you let me know [colin](PERSON)'s office?
+- [colin](PERSON)'s office?
+- Do you know [colin](PERSON) office number?
+- want to know where [colin](PERSON)'s room is
+- where is [colin](PERSON)'s office?
+- wanna know where [banger](PERSON)'s office is
+- I'd like to know where [banger](PERSON)'s room is
+- I'd like to know where [banger](PERSON)'s room is
+- find me [banger](PERSON) office
+- find me [banger](PERSON) office
+- Could you let me know [banger](PERSON)'s office?
+- want to know where [catherine](PERSON)'s office is
+- Do you know [catherine](PERSON)'s office?
+- where is [catherine](PERSON)'s office?
+- find me [catherine](PERSON) office
+- where is [catherine](PERSON) office?
+- Can I have [catherine](PERSON)'s office number?
+- Could you let me know [bell](PERSON)'s office?
+- Do you know [bell](PERSON) office number?
+- [bell](PERSON)'s office?
+- I'd like to know where [bell](PERSON)'s room is
+- [bell](PERSON)'s office?
+- I need to find [bell](PERSON)'s office
